@@ -6,3 +6,6 @@ This is an Example of frame animation of an Object in c
 ### Attention !
 - if you use linux change the #include<Windows.h> to #include<unistd.h> 
 - sleep() to usleep()
+
+### Credits
+- Me & Saif Hamdare
