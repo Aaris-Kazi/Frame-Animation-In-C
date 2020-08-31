@@ -3,6 +3,7 @@
 #include<string.h>
 #include<time.h>
 #include<Windows.h>
+#include<stdlib.h>
 
 int main()
 {
@@ -14,6 +15,7 @@ int main()
     printf("\x1b[2J");
     for (;;)
     {
+       
         memset(b, 32, 1760);
         memset(z, 0, 7040);
         for ( j = 0; j < 6.28; j += 0.07)
@@ -35,6 +37,7 @@ int main()
                 int y = 12 + 15 * D * (l * h * m + t * n);
                 int o = x + 80 * y;
                 int N = 8 * ((f * e - c * d * g) * m - c * d * e - f  * g);
+                
                 if (22 > y && y > 0 && x > 0 && 80 > x && D > z[0] )
                 {
                     z[o] = D;
@@ -50,7 +53,9 @@ int main()
             A += 0.00004;
             B += 0.00002;
         }
-        Sleep(60);
+
+        system("cls");
+        Sleep(1);
         
         
     }
