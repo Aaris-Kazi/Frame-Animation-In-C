@@ -12,10 +12,11 @@ int main()
     int k;
     float z[1760];
     char b[1760];
+    system("cls");
     printf("\x1b[2J");
     for (;;)
     {
-       
+        
         memset(b, 32, 1760);
         memset(z, 0, 7040);
         for ( j = 0; j < 6.28; j += 0.07)
@@ -53,11 +54,7 @@ int main()
             A += 0.00004;
             B += 0.00002;
         }
-
-        system("cls");
-        Sleep(1);
-        
-        
+        Sleep(45);
     }
     
     return 0;
